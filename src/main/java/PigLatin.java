@@ -47,7 +47,6 @@ public class PigLatin {
     else if(sWord.substring(i,i+1).equals("u")){
       return i;
     }
-  }
   return -1;
 }
 
@@ -70,4 +69,5 @@ public String pigLatin(String sWord)
   else{
     return "Error";
   }
+}
 }
