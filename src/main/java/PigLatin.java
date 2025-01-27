@@ -48,8 +48,8 @@ public class PigLatin {
       return i;
     }
   return -1;
+  }
 }
-
 public String pigLatin(String sWord){
   if(findFirstVowel(sWord) == -1){
     return sWord + "ay";
